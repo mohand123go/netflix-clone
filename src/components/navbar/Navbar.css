@@ -1,0 +1,21 @@
+nav{
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.25s ease-in-out;
+    z-index: 99;
+}
+
+.nav_bg_black{
+    background-color:#111; 
+}
+
+.nav__logo,
+.nav__avtar{
+    height: 40px;
+    object-fit: contain;
+}
